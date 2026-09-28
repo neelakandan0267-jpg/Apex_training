@@ -1,0 +1,153 @@
+my_dict["address"]="Downtown"
+print(my_dict)
+tinydict={"name":"john","code":6734,"dept":"sales"}
+print(tinydict)
+print(tinydict.keys())
+print(tinydict.keys())
+print(tinydict.values())
+squares={1:1,2:4,3:9,4:16,5:25}
+print(squares.pop(4))
+print(squares)
+squares.clear()
+squares={1:1,3:9,5:25,7:49,9:81}
+print(1 in squares)
+print(2 not in squares)
+print(49 in squares)
+#Sets
+my_set={1,2,3}
+print(my_set)
+my_set={1.0,"Hello",(1,2,3)}
+print(my_set)
+my_set={1,2,3,4,3,2}
+print(my_set)
+my_set={1,2,3}
+my_set.add(4)
+print(my_set)
+my_set={1,2,3}
+my_set.remove(2)
+print(my_set)
+numbers=[1,2,2,3,4]
+my_set=set(numbers)
+print(my_set)
+nums1={1,2,2,3,4,5}
+nums2={4,5,6,7,7,8}
+distinct_nums=nums1.union(nums2)
+print("The union of two sets is:",distinct_nums)
+nums1={1,2,2,3,4,5}
+nums2={4,5,6,7,7,8}
+common_nums=nums1.intersection(nums2)
+print("The intersection of two sets is:",common_nums)
+nums1={1,2,2,3,4,5}
+nums2={4,5,6,7,8,8}
+nums3=nums1.difference(nums2)
+nums4=nums2.difference(nums1)
+print("nums1=nums2:",nums3)
+print("nums2-nums1:",nums4)
+A={1,2,3,4}
+B={3,4,5,6}
+print(A|B)
+print(A&B)
+print(A-B)
+
+output:
+[2, 9, 3000, 'Hello', 'Welcome to python list', True]
+p
+1
+['mouse', [8, 4, 6], ['a', 'b', 'c']]
+mouse
+4
+c
+e
+p
+[1, 3, 5, 7]
+[1, 3, 5, 7, 9, 11, 13]
+[1, 3, 5, 9, 7, 5]
+['re', 're', 're']
+3
+['apple', 'cherry']
+apple
+banana
+cherry
+apple
+banana
+cherry
+['banana', 'kiwi', 'mango', 'orange', 'pineapple']
+[23, 50, 65, 82, 100]
+['pineapple', 'orange', 'mango', 'kiwi', 'banana']
+[100, 82, 65, 50, 23]
+['apple', 'banana', 'cherry']
+['apple', 'banana', 'cherry']
+['apple', 'orange', 'banana', 'cherry']
+['apple', 'cherry']
+['apple', 'banana']
+['banana', 'cherry']
+[]
+2
+2
+Original List: [10, 20, 30, 40]
+Copied List: [10, 20, 30, 40]
+List: [10, 20, 30, 40, 50]
+Value: 30
+Index: 2
+('hi', 'hello', 'bye')
+(1, 2.8, 'Hello world')
+((2, 3, 4), (1, 2, 'hi'))
+('hi', 'hello', 'bye')
+hi
+bye
+8.9
+2
+v
+22
+(1, [9, 8, 7], 'World')
+(1, [9, 8, 99], 'World')
+(11, 22, 33, 44, 55, 66, 77, 88, 99)
+(33, 44, 55)
+(11, 22, 33, 44)
+(55, 66, 77, 88, 99)
+(55, 66, 77, 88)
+(11, 22, 33, 44, 55, 66, 77, 88, 99)
+(11, 22, 33, 44, 55, 66, 77, 88, 99)
+True
+False
+False
+True
+Apple
+Orange
+Grapes
+Banana
+First tuple length: 3
+Second tuple length: 2
+Max value element: zara
+Max value element: 700
+Jack
+26
+1.Empty Dictionary: {}
+2.interger keys: {1: 'apple', 2: 'ball'}
+3.Mixed Keys: {'name': 'John', 1: [2, 4, 3]}
+4.Using dict(): {1: 'apple', 2: 'ball'}
+5.From Sequence: {1: 'apple', 2: 'ball'}
+{'name': 'John', 'age': 27}
+{'name': 'John', 'age': 27, 'address': 'Downtown'}
+{'name': 'john', 'code': 6734, 'dept': 'sales'}
+dict_keys(['name', 'code', 'dept'])
+dict_keys(['name', 'code', 'dept'])
+dict_values(['john', 6734, 'sales'])
+16
+{1: 1, 2: 4, 3: 9, 5: 25}
+True
+True
+False
+{1, 2, 3}
+{'Hello', 1.0, (1, 2, 3)}
+{1, 2, 3, 4}
+{1, 2, 3, 4}
+{1, 3}
+{1, 2, 3, 4}
+The union of two sets is: {1, 2, 3, 4, 5, 6, 7, 8}
+The intersection of two sets is: {4, 5}
+nums1=nums2: {1, 2, 3}
+nums2-nums1: {8, 6, 7}
+{1, 2, 3, 4, 5, 6}
+{3, 4}
+{1, 2}
